@@ -91,10 +91,10 @@ function Home() {
         {/* another flex items start */}
 
         <div className="py-12 relative overflow-hidden leading-3 bg-white">
-          <h3 className="container text-white mx-auto bg-sky-950  py-5 text-center my-9">
+          <h3 className="container text-sm text-white mx-auto w-full bg-sky-950  py-5 text-center my-9">
             Those were required of both female and male students who had
             journalist profession as their first career choice..
-            <span className="bg-[#f7d0b6] font-bold text-black px-9 py-7">
+            <span className="bg-[#f7d0b6] font-bold text-black  py-7">
               Classification or finding the perfect employee should not be based
               on gender and instead be Someone's skills.
             </span>
