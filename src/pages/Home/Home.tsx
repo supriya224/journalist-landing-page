@@ -119,17 +119,19 @@ function Home() {
                   Some major skills required to become a good journalists
                 </h2>
                 <p className="text-white text-base">
-                  <h3>
-                    Communication Skills: Capability to interview subjects,
-                    present findings, and engage with audiences.
+                  <h3 className="my-3">
+                    Communication skills: a favorite author is capable of
+                    interviewing subjects, delivering decisions and engaging
+                    with the readers.
                   </h3>
-                  <h3>
-                    Networking Abilities: Capacity to build relationships with
-                    sources, colleagues, and the community.
+                  <h3 className="my-3">
+                    Technological Proficiency: the essential knowledge of the
+                    digital implements and platforms put to use in today
+                    reporting.
                   </h3>
-                  <h3>
-                    Curiosity and Critical Thinking: A natural inclination to
-                    question, analyze, and investigate.
+                  <h3 className="my-3">
+                    Networking Abilities: the talent to create relationships
+                    with friends, others in the area, and the culture.
                   </h3>
                 </p>
                 <button
@@ -144,30 +146,31 @@ function Home() {
         </div>
 
         <div className="py-4 relative overflow-hidden bg-white">
-          <div className="grid grid-cols-2 max-w-screen-lg mx-auto">
+          <div className="grid grid-cols-2 mx-auto">
             <div className="py-20 bg-slate-100 relative before:absolute before:h-full before:w-screen before:bg-[#f7d0b6] before:top-0 before:right-0">
-              <div className="relative z-20 pl-12">
-                <h2 className="text-sky-950 font-black text-5xl leading-snug mb-10">
+              <div className="relative">
+                <h2 className="text-sky-950  mx-32 font-black text-5xl leading-snug mb-10">
                   Finpoint is here <br />
                   to help you
                 </h2>
-                <p className="text-white text-base">
-                  <h3>
-                    Strong Writing Skills: Ability to communicate effectively
-                    and concisely through writing is crucial.
+                <p className="text-sky-950 mx-32 text-base">
+                  <h3 className="my-3">
+                    Writing Skills: the need to have necessary skill of writing
+                    to communicate effectively, and more critical, concisely,
+                    through writing is a prerequisite for the field
                   </h3>
-                  <h3>
-                    Adaptability: Willingness to work in diverse environments
-                    and cover a wide range of topics.
+                  <h3 className="my-3">
+                    Adaptability: the vacancy to work various environments and
+                    study a variety of areas.
                   </h3>
-                  <h3>
-                    Time Management: Ability to meet deadlines and manage
-                    multiple tasks efficiently.
+                  <h3 className="my-3">
+                    Time Management: the required skill to meet deadlines and
+                    feature multiple projects quickly.
                   </h3>
                 </p>
                 <button
                   type="button"
-                  className="mt-8 text-sky-950 uppercase py-3 text-sm px-10 border border-sky-950 hover:bg-white hover:bg-opacity-10"
+                  className="mt-8  mx-32 text-sky-950 uppercase py-3 text-sm px-10 border border-sky-950 hover:bg-white hover:bg-opacity-10"
                 >
                   Talk with expert
                 </button>

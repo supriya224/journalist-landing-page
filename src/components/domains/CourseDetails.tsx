@@ -154,28 +154,15 @@ function CourseDetails() {
             </div>
           </div>
           <div className="flex rounded-md dark:bg-sky-950 border border-slate-200 shadow-2xl transition duration-300 hover:scale-105">
-            <div className="flex-1 p-10">
-              <h3 className="text-xl font-medium text-gray-700">
-                Respond faster, with automated chatbots
-              </h3>
-              <p className="mt-2 text-slate-500">
-                Integrate with chatbots using Rasa or Dialogflow to automate
-                conversations. Qualify using chatbots and seamlessly handoff to
-                human agents.
-              </p>
-              <a href="/" className="mt-2 inline-flex text-sky-500">
-                Read More →
-              </a>
-            </div>
-
-            <div className="relative hidden h-full w-1/3 overflow-hidden lg:block">
-              <div className="absolute inset-0">
-                <img
-                  src="https://bcdn.mindler.com/bloglive/wp-content/uploads/2022/09/01152855/6-Career-opportunities-After-Journalism_blog.png"
-                  className="h-full w-full object-cover "
-                  alt=""
-                />
-              </div>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjE8tPp-z4kMAdIqbO6ZG9YVezCGVmRPS9AQ&usqp=CAU"
+              className="h-full w-full object-cover "
+              alt=""
+            />
+            <div className="relative my-9 mx-2 text-sm justify-center text-white hidden h-full w-1/3 overflow-hidden lg:block">
+              You are the blood that shape the future of india, it is time for
+              you to make condsion to choose your identity. Indian inmate does
+              prison rights or wrong thing.
             </div>
           </div>
           <div className="row-span-2 flex flex-col bg-[#f7d0b6] rounded-md border border-slate-200 shadow-2xl transition duration-300 hover:scale-105">
