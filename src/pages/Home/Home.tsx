@@ -92,11 +92,11 @@ function Home() {
 
         <div className="py-12 relative overflow-hidden leading-3 bg-white">
           <h3 className="container text-white mx-auto bg-sky-950  py-5 text-center my-9">
-            These criteria apply to both female and male students aspiring to
-            become journalists.{' '}
+            Those were required of both female and male students who had
+            journalist profession as their first career choice..
             <span className="bg-[#f7d0b6] font-bold text-black px-9 py-7">
-              Gender should not be a determining factor in evaluating one's
-              suitability for the profession.
+              Classification or finding the perfect employee should not be based
+              on gender and instead be Someone's skills.
             </span>
           </h3>
           <div className="grid grid-cols-2 max-w-screen-lg mx-auto">
