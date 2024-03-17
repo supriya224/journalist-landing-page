@@ -1,162 +1,88 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable jsx-a11y/control-has-associated-label */
 import React from 'react';
 
 function Contact() {
   return (
-    <div>
-      <div className="w-screen h-screen overflow-hidden relative before:block before:absolute before:bg-black before:h-full before:w-full before:top-0 before:left-0 before:z-10 before:opacity-30">
-        <img
-          src="https://picsum.photos/seed/picsum/1900/850"
-          className="absolute top-0 left-0 min-h-full ob"
-          alt=""
-        />
-        <div className="relative z-20 max-w-screen-lg mx-auto grid grid-cols-12 h-full items-center">
-          <div className="col-span-6">
-            <span className="uppercase text-white text-xs font-bold mb-2 block">
-              WE ARE EXPERTS
-            </span>
-            <h1 className="text-white font-extrabold text-5xl mb-8">
-              Finpoint provides Financial Consulting in different ways
+    <div className="flex justify-center items-center w-screen h-screen bg-white">
+      <div className="container mx-auto mt-32  my-4 px-4 lg:px-20">
+        <div className="w-full border border-1 p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
+          <div className="flex">
+            <h1 className="font-bold uppercase text-5xl">
+              Send me a<br /> message
             </h1>
-            <p className="text-stone-100 text-base">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+          </div>
+          <div className="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
+            <input
+              className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+              type="text"
+              placeholder="First Name*"
+            />
+            <input
+              className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+              type="text"
+              placeholder="Last Name*"
+            />
+            <input
+              className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+              type="email"
+              placeholder="Email*"
+            />
+            <input
+              className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+              type="number"
+              placeholder="Phone*"
+            />
+          </div>
+          <div className="my-4">
+            <textarea
+              placeholder="Message*"
+              className="w-full h-32 bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+            />
+          </div>
+          <div className="my-2 w-1/2 lg:w-1/4">
             <button
               type="button"
-              className="mt-8 text-white uppercase py-4 text-base font-light px-10 border border-white hover:bg-white hover:bg-opacity-10"
+              className="uppercase text-sm font-bold tracking-wide dark:bg-sky-950 text-gray-100 p-3 rounded-lg w-full 
+                        focus:outline-none focus:shadow-outline"
             >
-              Get started
+              Conatct me
             </button>
           </div>
         </div>
-      </div>
-      <div className="bg-[#f7d0b6] py-20">
-        <div className="max-w-screen-lg mx-auto flex justify-between items-center">
-          <div className="max-w-xl">
-            <h2 className="font-black text-sky-950 text-3xl mb-4">
-              As the leading experts in this field, we're in over 90 countries
-            </h2>
-            <p className="text-base text-sky-950">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+        <div className="w-full h-fit lg:-mt-96 lg:w-2/6 px-8 py-7 ml-auto dark:bg-sky-950 rounded-2xl">
+          <div className="flex flex-col text-white">
+            <h1 className="font-bold uppercase text-xl my-4">
+              Before accepting myc course once you can talk to me personally
+            </h1>
+            <p className="text-gray-400">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+              tincidunt arcu diam, eu feugiat felis fermentum id. Curabitur
+              vitae nibh viverra, auctor turpis sed, scelerisque ex.
             </p>
-          </div>
-          <button
-            type="button"
-            className="text-sky-950 uppercase py-3 text-base px-10 border border-sky-950 hover:bg-sky-950 hover:bg-opacity-10"
-          >
-            Get started
-          </button>
-        </div>
-      </div>
-      <div className="py-12 relative overflow-hidden bg-white">
-        <div className="grid grid-cols-2 max-w-screen-lg mx-auto">
-          <div className="w-full flex flex-col items-end pr-16">
-            <h2 className="text-[#64618C] font-bold text-2xl max-w-xs text-right mb-12 mt-10">
-              Whether you need Assistance
-            </h2>
-            <div className="h-full mt-auto overflow-hidden relative">
-              <img
-                src="https://picsum.photos/800/600"
-                className="h-full w-full object-contain"
-                alt=""
-              />
-            </div>
-          </div>
 
-          <div className="py-20 bg-slate-100 relative before:absolute before:h-full before:w-screen before:bg-sky-950 before:top-0 before:left-0">
-            <div className="relative z-20 pl-12">
-              <h2 className="text-[#f7d0b6] font-black text-5xl leading-snug mb-10">
-                Finpoint is here <br />
-                to help you
-              </h2>
-              <p className="text-white text-sm">
-                Purus in massa tempor nec. Magna etiam tempor orci eu lobortis
-                elementum nibh tellus molestie. Faucibus ornare suspendisse sed
-                nisi lacus sed viverra. Diam in arcu cursus euismod quis viverra
-                nibh cras pulvinar.
-              </p>
-              <button
-                type="button"
-                className="mt-8 text-white uppercase py-3 text-sm px-10 border border-white hover:bg-white hover:bg-opacity-10"
-              >
-                Talk with expert
-              </button>
+            <div className="flex my-4 w-2/3 lg:w-1/2">
+              <div className="flex flex-col">
+                <i className="fas fa-map-marker-alt pt-2 pr-2" />
+              </div>
+              <div className="flex flex-col">
+                <h2 className="text-2xl">Main Office</h2>
+                <p className="text-gray-400">
+                  5555 Tailwind RD, Pleasant Grove, UT 73533
+                </p>
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
 
-      <div className="py-4 relative overflow-hidden bg-white">
-        <div className="grid grid-cols-2 max-w-screen-lg mx-auto">
-          <div className="py-20 bg-slate-100 relative before:absolute before:h-full before:w-screen before:bg-[#f7d0b6] before:top-0 before:right-0">
-            <div className="relative z-20 pl-12">
-              <h2 className="text-sky-950 font-black text-5xl leading-snug mb-10">
-                Finpoint is here <br />
-                to help you
-              </h2>
-              <p className="text-sky-950 text-sm">
-                Purus in massa tempor nec. Magna etiam tempor orci eu lobortis
-                elementum nibh tellus molestie. Faucibus ornare suspendisse sed
-                nisi lacus sed viverra. Diam in arcu cursus euismod quis viverra
-                nibh cras pulvinar.
-              </p>
-              <button
-                type="button"
-                className="mt-8 text-sky-950 uppercase py-3 text-sm px-10 border border-sky-950 hover:bg-white hover:bg-opacity-10"
-              >
-                Talk with expert
-              </button>
-            </div>
-          </div>
-          <div className="w-full flex flex-col pl-16">
-            <h2 className="text-[#64618C] font-bold text-2xl max-w-xs text-left mb-12 mt-10">
-              Whether you need Assistance
-            </h2>
-            <div className="h-full mt-auto overflow-hidden relative">
-              <img
-                src="https://picsum.photos/800/600"
-                className="h-full w-full object-contain"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="py-12 relative overflow-hidden bg-white">
-        <div className="grid grid-cols-2 max-w-screen-lg mx-auto">
-          <div className="w-full flex flex-col items-end pr-16">
-            <h2 className="text-[#64618C] font-bold text-2xl max-w-xs text-right mb-12 mt-10">
-              Whether you need Assistance
-            </h2>
-            <div className="h-full mt-auto overflow-hidden relative">
-              <img
-                src="https://picsum.photos/800/600"
-                className="h-full w-full object-contain"
-                alt=""
-              />
-            </div>
-          </div>
-
-          <div className="py-20 bg-slate-100 relative before:absolute before:h-full before:w-screen before:bg-sky-950 before:top-0 before:left-0">
-            <div className="relative z-20 pl-12">
-              <h2 className="text-[#f7d0b6] font-black text-5xl leading-snug mb-10">
-                Finpoint is here <br />
-                to help you
-              </h2>
-              <p className="text-white text-sm">
-                Purus in massa tempor nec. Magna etiam tempor orci eu lobortis
-                elementum nibh tellus molestie. Faucibus ornare suspendisse sed
-                nisi lacus sed viverra. Diam in arcu cursus euismod quis viverra
-                nibh cras pulvinar.
-              </p>
-              <button
-                type="button"
-                className="mt-8 text-white uppercase py-3 text-sm px-10 border border-white hover:bg-white hover:bg-opacity-10"
-              >
-                Talk with expert
-              </button>
+            <div className="flex my-4 w-2/3 lg:w-1/2">
+              <div className="flex flex-col">
+                <i className="fas fa-phone-alt pt-2 pr-2" />
+              </div>
+              <div className="flex flex-col">
+                <h2 className="text-2xl">Call Us</h2>
+                <p className="text-gray-400">Tel: xxx-xxx-xxx</p>
+                <p className="text-gray-400">Fax: xxx-xxx-xxx</p>
+              </div>
             </div>
           </div>
         </div>

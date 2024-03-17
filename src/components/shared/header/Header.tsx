@@ -28,7 +28,7 @@ function Header() {
             </div>
             {/* primary */}
             <div className="hidden lg:flex gap-8 justify-end">
-              <Link to="/details">Details</Link>
+              <Link to="/">Details</Link>
               <Link to="/contact">Contact</Link>
               <Link to="/feedback">Feedback</Link>
             </div>
