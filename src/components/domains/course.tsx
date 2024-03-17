@@ -23,13 +23,13 @@ function Course() {
               Data Journalism
             </h5>
             <p className="font-normal text-gray-700 mb-3 dark:text-gray-400">
-              Here are the biggest enterprise technology acquisitions of 2021 so
-              far, in reverse chronological order.
+              Data journalism: Unveiling stories through the power of data
+              analysis, shaping news in the digital age.
             </p>
-            <div className="flex justify-between">
+            <div className="flex gap-1 justify-between">
               <a
                 href="/"
-                className="text-gray-700 bg-[#f7d0b6] font-bold rounded-lg text-sm px-3 py-2 text-center inline-flex items-center   "
+                className="text-gray-700 bg-[#f7d0b6] font-bold rounded-lg text-sm px-7 py-2 text-center inline-flex items-center   "
               >
                 Buy Course
               </a>
@@ -41,7 +41,7 @@ function Course() {
               </a>
               <a
                 href="/"
-                className="text-gray-700 bg-[#f7d0b6] font-bold rounded-lg text-sm px-3 py-2 text-center inline-flex items-center   "
+                className="text-gray-700 bg-[#f7d0b6] font-bold rounded-lg text-sm px-7 py-2 text-center inline-flex items-center   "
               >
                 Read more
               </a>
@@ -61,15 +61,33 @@ function Course() {
               </h5>
             </a>
             <p className="font-normal text-gray-700 mb-3 dark:text-gray-400">
-              Here are the biggest enterprise technology acquisitions of 2021 so
-              far, in reverse chronological order.
+              A common practice for arts journalists is to be versed in
+              “awareness” - the ability to see an art piece or someone who seems
+              to merit attention and summarise for the reader the most
+              fundamental information about him or her. For, instance, one could
+              tell the readers where the work is up for sale, observation, or
+              citation with regard to researches.
             </p>
-            <a
-              href="/"
-              className="text-gray-700 bg-[#f7d0b6] font-bold  rounded-lg text-sm px-3 py-2 text-center inline-flex items-center  "
-            >
-              Read more
-            </a>
+            <div className="flex gap-1 justify-between">
+              <a
+                href="/"
+                className="text-gray-700 bg-[#f7d0b6] font-bold rounded-lg text-sm px-7 py-2 text-center inline-flex items-center   "
+              >
+                Buy Course
+              </a>
+              <a
+                href="/"
+                className="text-gray-700 bg-[#f7d0b6] font-bold rounded-lg text-sm px-3 py-2 text-center inline-flex items-center   "
+              >
+                Save
+              </a>
+              <a
+                href="/"
+                className="text-gray-700 bg-[#f7d0b6] font-bold rounded-lg text-sm px-7 py-2 text-center inline-flex items-center   "
+              >
+                Read more
+              </a>
+            </div>
           </div>
         </div>
         <div className="bg-white border border-gray-200 rounded-lg max-w-sm dark:bg-sky-950  dark:border-gray-400 shadow-2xl transition duration-300 hover:scale-105">
@@ -85,15 +103,35 @@ function Course() {
               </h5>
             </a>
             <p className="font-normal text-gray-700 mb-3 dark:text-gray-400">
-              Here are the biggest enterprise technology acquisitions of 2021 so
-              far, in reverse chronological order.
+              Media, and its freshness, is made possible by journalists that
+              cover locally, nationally, and internationally occurring events
+              and issues for the airwaves that help save the data. They should
+              have a firm grasp on the world events for them to be able to
+              convey the original commissioning source to their viewer, who will
+              then be able to locate a particular work of art for the purpose of
+              purchase, viewing, or making reference to it in their own research
+              paper.
             </p>
-            <a
-              href="/"
-              className="text-gray-700 bg-[#f7d0b6] font-bold  rounded-lg text-sm px-3 py-2 text-center inline-flex items-center  "
-            >
-              Read more
-            </a>
+            <div className="flex gap-1 justify-between">
+              <a
+                href="/"
+                className="text-gray-700 bg-[#f7d0b6] font-bold rounded-lg text-sm px-7 py-2 text-center inline-flex items-center   "
+              >
+                Buy Course
+              </a>
+              <a
+                href="/"
+                className="text-gray-700 bg-[#f7d0b6] font-bold rounded-lg text-sm px-3 py-2 text-center inline-flex items-center   "
+              >
+                Save
+              </a>
+              <a
+                href="/"
+                className="text-gray-700 bg-[#f7d0b6] font-bold rounded-lg text-sm px-7 py-2 text-center inline-flex items-center   "
+              >
+                Read more
+              </a>
+            </div>
           </div>
         </div>
         <div className="bg-white border border-gray-200 rounded-lg max-w-sm dark:bg-sky-950  dark:border-gray-400 shadow-2xl transition duration-300 hover:scale-105">
@@ -109,15 +147,32 @@ function Course() {
               </h5>
             </a>
             <p className="font-normal text-gray-700 mb-3 dark:text-gray-400">
-              Here are the biggest enterprise technology acquisitions of 2021 so
-              far, in reverse chronological order.
+              Business journalism describes as a media that produces, analyses,
+              and distributes financial and economic news. Apart from some
+              admirable co-authorial credit, financial journalism is known to
+              incorporate stories, narratives and analyses from the perspectives
+              of individual investors to the management of giant corporations.
             </p>
-            <a
-              href="/"
-              className="text-gray-700 bg-[#f7d0b6] font-bold  rounded-lg text-sm px-3 py-2 text-center inline-flex items-center "
-            >
-              Read more
-            </a>
+            <div className="flex gap-1 justify-between">
+              <a
+                href="/"
+                className="text-gray-700 bg-[#f7d0b6] font-bold rounded-lg text-sm px-7 py-2 text-center inline-flex items-center   "
+              >
+                Buy Course
+              </a>
+              <a
+                href="/"
+                className="text-gray-700 bg-[#f7d0b6] font-bold rounded-lg text-sm px-3 py-2 text-center inline-flex items-center   "
+              >
+                Save
+              </a>
+              <a
+                href="/"
+                className="text-gray-700 bg-[#f7d0b6] font-bold rounded-lg text-sm px-7 py-2 text-center inline-flex items-center   "
+              >
+                Read more
+              </a>
+            </div>
           </div>
         </div>
         <div className="bg-white border border-gray-200 rounded-lg max-w-sm dark:bg-sky-950  dark:border-gray-400 shadow-2xl transition duration-300 hover:scale-105">
@@ -133,15 +188,35 @@ function Course() {
               </h5>
             </a>
             <p className="font-normal text-gray-700 mb-3 dark:text-gray-400">
-              Here are the biggest enterprise technology acquisitions of 2021 so
-              far, in reverse chronological order.
+              Besides political journalism which is literally the display of the
+              journalism profession as whole, the need to cover it cannot be
+              stressed highly enough even without taking part in the political
+              processes for democracy to be possible. Journalism in politics, in
+              an ideal world, would be used as a vehicle of information, a
+              watchdog, and a space for political discussions, thus,
+              enlightening people on all political matters and help stop the
+              misuse of power.
             </p>
-            <a
-              href="/"
-              className="text-gray-700 bg-[#f7d0b6] font-bold  rounded-lg text-sm px-3 py-2 text-center inline-flex items-center  "
-            >
-              Read more
-            </a>
+            <div className="flex gap-1 justify-between">
+              <a
+                href="/"
+                className="text-gray-700 bg-[#f7d0b6] font-bold rounded-lg text-sm px-7 py-2 text-center inline-flex items-center   "
+              >
+                Buy Course
+              </a>
+              <a
+                href="/"
+                className="text-gray-700 bg-[#f7d0b6] font-bold rounded-lg text-sm px-3 py-2 text-center inline-flex items-center   "
+              >
+                Save
+              </a>
+              <a
+                href="/"
+                className="text-gray-700 bg-[#f7d0b6] font-bold rounded-lg text-sm px-7 py-2 text-center inline-flex items-center   "
+              >
+                Read more
+              </a>
+            </div>
           </div>
         </div>
         <div className="bg-white border border-gray-200 rounded-lg max-w-sm dark:bg-sky-950  dark:border-gray-400 shadow-2xl transition duration-300 hover:scale-105">
@@ -157,15 +232,32 @@ function Course() {
               </h5>
             </a>
             <p className="font-normal text-gray-700 mb-3 dark:text-gray-400">
-              Here are the biggest enterprise technology acquisitions of 2021 so
-              far, in reverse chronological order.
+              Crime journalists combine research and writing the articles
+              describing the crimes for newspaper, magazines, television and
+              other media, maybe facing interviews and court hearings. Reporting
+              on crime is one of the classes that often teaches fundamental
+              journalistic principles.
             </p>
-            <a
-              href="/"
-              className="text-gray-700 bg-[#f7d0b6] font-bold rounded-lg text-sm px-3 py-2 text-center inline-flex items-center  "
-            >
-              Read more
-            </a>
+            <div className="flex gap-1 justify-between">
+              <a
+                href="/"
+                className="text-gray-700 bg-[#f7d0b6] font-bold rounded-lg text-sm px-7 py-2 text-center inline-flex items-center   "
+              >
+                Buy Course
+              </a>
+              <a
+                href="/"
+                className="text-gray-700 bg-[#f7d0b6] font-bold rounded-lg text-sm px-3 py-2 text-center inline-flex items-center   "
+              >
+                Save
+              </a>
+              <a
+                href="/"
+                className="text-gray-700 bg-[#f7d0b6] font-bold rounded-lg text-sm px-7 py-2 text-center inline-flex items-center   "
+              >
+                Read more
+              </a>
+            </div>
           </div>
         </div>
       </div>

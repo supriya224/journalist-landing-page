@@ -30,16 +30,20 @@ function Home() {
               </span>
               <p className="text-stone-100 text-xl">
                 <span className="text-orange-400 font-bold "> Journalists</span>{' '}
-                are crucial for keeping the public informed and updated on
-                current events.
+                are the major sources of accurate up-to-date information on the
+                issues of the time.
               </p>
-              <p className="text-white font-bold text-2xl">
-                In today's generation, everyone seeks truth in news. Through
-                newspapers and media, people determine right from wrong. But if
-                someone ignores reality and leads others astray, clarity is
-                lost. Hence, it's crucial to focus on reliable news, avoiding
-                falsehoods. I offer a roadmap to become a truthful journalist,
-                adept at separating fact from fiction.
+              <p className="text-white font-bold text-xl">
+                As truth becomes the number one goal of news in today's world,
+                people of the current generation go searching for the truth in
+                the news. The print and electronic media, in this way, is the
+                measuring factor for rights and wrongs of the society. And here
+                I would like to stress that those who show others a way from the
+                truth are no less a threat to others. Consequently, ones should
+                act cautiously seeking the only trusted information, not the
+                fake news. I provide a traffic of how to master the skills of
+                the truth telling journalist; s/he is to be able to distinguish
+                between fact and fiction.
               </p>
               <button
                 type="button"
@@ -56,20 +60,24 @@ function Home() {
           <div className="max-w-screen-lg mx-auto flex justify-between items-center">
             <div className="max-w-xl text-center justify-items-center">
               <span className="text-black font-bold">
-                "Drawing from my own journey and experiences, I aim to guide
-                aspiring journalists in honing their skills and uncovering their
-                potential. Together, let's embark on a path of self-discovery
-                and journalistic excellence."👍🏾
+                "Basing my experience and journey, I want to motivate upcoming
+                journalists to grow in their advocacies and let them tap their
+                potentials. In this way, we shall journey to the destination
+                where discoveries and success is guaranteed.
               </span>
               <p className="text-base text-sky-950">
-                A conscientious journalist 📰 not only delivers news but also
-                determines the manner in which it is presented to the public.
-                Embracing the responsibility to uphold truth and integrity, a
-                journalist holds the power to shape the narrative and propel the
-                nation forward. In India, as elsewhere, the choice between
-                contributing positively or negatively to society lies in the
-                hands of every aspiring journalist. Choose wisely, for your path
-                will influence the trajectory of our nation.
+                A journalist who is responsible and conscientious in their work
+                📰 not only hands out information by putting it a format which
+                will be acceptable by the public. Journalists being careful to
+                maintain at all times this responsibility to defend facts and
+                impartiality, wield a weapon-power that can form the narrative
+                of their country and dictate its future and progress. In India,
+                like in any other place in the world, journalists have the power
+                to provide the positivity we crave or let us get the feeling of
+                negativity. It all depends on what road a future media
+                professional wants to follow. Choose and stick to it,
+                understanding that your way will become a subject of every
+                student forever.
               </p>
             </div>
             <button
@@ -201,19 +209,15 @@ function Home() {
                   Finpoint is here <br />
                   to help you
                 </h2>
-                <p className="text-white text-sm">
-                  <h3>
-                    Technological Proficiency: Familiarity with digital tools
-                    and platforms used in modern journalism.
-                  </h3>
-                  <h3>
-                    Ethical Standards: Commitment to truth, accuracy, fairness,
-                    and impartiality in reporting.
-                  </h3>
-                  <h3>
-                    Research Skills: Proficiency in gathering information from
-                    various sources and verifying its accuracy.
-                  </h3>
+                <p className="text-white text-base">
+                  To go through your career journey to a successful journalism
+                  carefully think about taking your skills and knowledge a step
+                  a forward through the “Modern Journalism” online course and
+                  certificate program provided by Yellowbrick. This extensive
+                  program will give you new insights and help you hone the
+                  practical skills needed to excel as the field of journalism
+                  keeps on evolving. Make the next step clear and sign up for
+                  the “Modern Journalism” course
                 </p>
                 <button
                   type="button"

@@ -57,9 +57,8 @@ function Contact() {
               Before accepting myc course once you can talk to me personally
             </h1>
             <p className="text-gray-400">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-              tincidunt arcu diam, eu feugiat felis fermentum id. Curabitur
-              vitae nibh viverra, auctor turpis sed, scelerisque ex.
+              These course will be best course for become journalist first day
+              you can try for free session after you can join permanent.
             </p>
 
             <div className="flex my-4 w-2/3 lg:w-1/2">
@@ -68,9 +67,7 @@ function Contact() {
               </div>
               <div className="flex flex-col">
                 <h2 className="text-2xl">Main Office</h2>
-                <p className="text-gray-400">
-                  5555 Tailwind RD, Pleasant Grove, UT 73533
-                </p>
+                <p className="text-gray-400">Delhi,India</p>
               </div>
             </div>
 
@@ -80,7 +77,6 @@ function Contact() {
               </div>
               <div className="flex flex-col">
                 <h2 className="text-2xl">Call Us</h2>
-                <p className="text-gray-400">Tel: xxx-xxx-xxx</p>
                 <p className="text-gray-400">Fax: xxx-xxx-xxx</p>
               </div>
             </div>
